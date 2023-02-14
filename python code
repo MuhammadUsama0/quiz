@@ -1,0 +1,24 @@
+print("Welcome to the Computer Quiz Game")
+
+playing = input("Do you want to play? ")
+if playing != "yes":
+    quit()
+print("Okay! Lets Play the Game ")
+print("Use small letters to type your answer")
+answer=input("what is python? ")
+if answer == "programming language":
+    print("Your Answer is correct. ")
+else:
+    print("Wrong Answer")
+answer=input("what is CPU? ")
+if answer == "central processing unit":
+    print("Your Answer is correct. ")
+else:
+    print("Wrong Answer")
+answer=input("what dose DSA stands for ")
+if answer == "data stucture and algorithm":
+    print("Your Answer is correct. ")
+else:
+    print("Wrong Answer")
+
+
